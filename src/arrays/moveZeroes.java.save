@@ -1,0 +1,45 @@
+import java.util.*;
+import java.io.*;
+
+package arrays;
+
+public class moveZeroes
+{
+
+    public static void main(String[] args)
+    {
+        List<Integer> myList = new ArrayList<>();
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter array values: ");
+       for(int i = 0; i < 10; i++)
+       {
+           myList.add(sc.nextInt());
+       }
+       moveZeroes(myList);
+       for(int i : myList)
+       {
+           System.out.print(i) + "\t"
+       }
+    }
+
+    public void moveZeroes(ArrayList<Integer> nums)
+    {
+        int lastNonZeroFoundAt = 0;
+        // if the current element is not 0, then we need to
+        // append it just in front of the last non 0 element found
+        for(int i = 0; i < nums.size(); i++)
+        {
+            if(nums[i]!=0)
+            {
+                nums[lastNonZeroFoundAt++] = nums[i];
+            }
+        }
+        // After we have finished processing new elements, 
+
+        // all the non-zero elements are already at beginning of array. 
+
+        // We just need to fill remaining array with 0's.
+        for(int i = lastNonZeroFoundAt; i<nums.size(); i++)
+            nums[i] = 0;
+    }
+}
