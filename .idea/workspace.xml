@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4b6cf23-fa86-41b7-b8df-c9ae28784308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/LeftRotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ProuctOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/RemoveEvenIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/RightRotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/SecondMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/WaterContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/JewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
