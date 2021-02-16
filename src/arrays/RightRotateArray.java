@@ -1,4 +1,4 @@
-package src.arrays;
+package arrays;
 
 public class RightRotateArray {
     public void rotate(int[] nums, int k) {

@@ -1,4 +1,4 @@
-package src.arrays;
+package arrays;
 
 public class SecondMax {
     public int SecondMaxValue(int[] nums) {
