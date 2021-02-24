@@ -18,4 +18,8 @@ public class BadVersion {
         }
         return left;
     }
+
+    private boolean isBadVersion(int mid) {
+        return true;
+    }
 }

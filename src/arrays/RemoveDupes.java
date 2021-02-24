@@ -9,7 +9,7 @@ public class RemoveDupes {
         {
             if(nums[i-1] != nums[i])
             {
-                nums[index++] = nums[i]; // if adjacent numbers are not same, then the value at index is overwirtten with the value at i and index and i are both incremented, else only i is incremented if adjacent numbers are duplicates
+                nums[index++] = nums[i]; // if adjacent numbers are not same, then the value at index is overwritten with the value at i and index and i are both incremented, else only i is incremented if adjacent numbers are duplicates
             }
         }
         return index;
