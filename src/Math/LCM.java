@@ -1,4 +1,4 @@
-package arrays;
+package Math;
 
 public class LCM {
     public int findLCM(int x, int y)

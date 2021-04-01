@@ -1,4 +1,4 @@
-package arrays;
+package Math;
 
 public class GCD {
     public int findGCD(int x, int y)

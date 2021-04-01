@@ -1,4 +1,4 @@
-package arrays;
+package Math;
 
 public class Factorial {
     public int findFact(int n)

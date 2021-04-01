@@ -1,4 +1,4 @@
-package arrays;
+package Strings;
 
 public class StringReversal {
     public void reverseString(char[] s) {
